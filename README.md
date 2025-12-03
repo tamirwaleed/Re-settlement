@@ -11,6 +11,11 @@
   - [Table of Contents](#table-of-contents)
   - [Project Overview](#project-overview)
   - [Motivation \& Background](#motivation--background)
+    - [Historical Context: Long-standing Crisis in Darfur \& Pre-War Migration](#historical-context-long-standing-crisis-in-darfur--pre-war-migration)
+    - [2023 Conflict Escalation \& Unprecedented Displacement](#2023-conflict-escalation--unprecedented-displacement)
+    - [Displacement Patterns \& Host Countries](#displacement-patterns--host-countries)
+    - [Why a Data-Driven Relocation Recommender is Needed](#why-a-data-driven-relocation-recommender-is-needed)
+    - [🔗 Key Sources \& Data References](#-key-sources--data-references)
     - [Humanitarian Context \& Sudan War](#humanitarian-context--sudan-war)
     - [Why Relocation Recommendation Matters](#why-relocation-recommendation-matters)
   - [Objectives \& Research Questions](#objectives--research-questions)
@@ -33,6 +38,61 @@ This project aims to build a machine-learning powered recommendation system tail
 ---
 
 ## Motivation & Background
+
+### Historical Context: Long-standing Crisis in Darfur & Pre-War Migration
+
+Displacement in Sudan did not begin in 2023 — it has been unfolding for over two decades. In February 2003, the Darfur conflict erupted, when rebel groups challenged marginalization and state policies in western Sudan, triggering a brutal counterinsurgency by government forces and allied militias. The violence included widespread human rights abuses, village destruction, sexual violence, mass killings, and ethnic cleansing. ([War in Darfur — Wikipedia](https://en.wikipedia.org/wiki/War_in_Darfur?utm_source=chatgpt.com))  
+
+By the mid-2000s, the Darfur crisis had already displaced **around 2 million people internally** and pushed hundreds of thousands to neighboring countries such as Chad. ([Human Rights Watch report](https://www.hrw.org/reports/2007/sudan0907/sudan0907webtext.pdf?utm_source=chatgpt.com))  
+Even prior to the 2023 civil war, Sudanese people were relocating due to decades of economic instability, localized conflicts, and systemic underdevelopment. Many settled in Egypt, Saudi Arabia, the Gulf states, Uganda, and Kenya, establishing early diaspora networks that continue to influence migration decisions today.
+
+### 2023 Conflict Escalation & Unprecedented Displacement
+
+On 15 April 2023, full-scale hostilities erupted between the Sudanese Armed Forces (SAF) and the Rapid Support Forces (RSF), plunging Sudan into a nationwide war. This “power struggle” between rival military factions has devastated civilian life, infrastructure, and basic services. ([Council on Foreign Relations — Sudan Conflict Tracker](https://www.cfr.org/global-conflict-tracker/conflict/power-struggle-sudan?utm_source=chatgpt.com))  
+
+By late 2024 and into 2025, Sudan had become the world’s largest displacement crisis. According to UNHCR, **more than 11.8 million Sudanese have been forcibly displaced**, including **over 11.5 million internally displaced persons (IDPs)**. ([UNHCR Sudan Situation](https://data.unhcr.org/en/situations/sudansituation?utm_source=chatgpt.com))  
+Millions have crossed borders — primarily into **Chad, Egypt, South Sudan, Ethiopia, Uganda, and the Central African Republic** — while others have moved to Gulf and North African countries via diaspora channels. ([UNHCR Country Data: Sudan](https://data.unhcr.org/en/country/sdn?utm_source=chatgpt.com))  
+
+This is not just a numbers crisis — it is a humanitarian catastrophe affecting livelihoods, access to food, healthcare, water, sanitation, education, and economic survival. International media have described Sudan as one of “the worst humanitarian nightmares in recent history.” ([ABC News — Sudan crisis report](https://abcnews.go.com/International/sudan-now-worst-humanitarian-nightmares-recent-history/story?id=104173197))
+
+### Displacement Patterns & Host Countries
+
+Several significant relocation trends are emerging:
+
+- **Border displacement:** Rapid mass movements to Sudan’s land borders, especially Chad and South Sudan, captured by displacement tracking tools and border monitoring. ([IOM DTM — “One Year of Conflict in Sudan”](https://dtm.iom.int/online-interactive-resources/one-year-conflict-sudan-visualizing-worlds-largest-displacement-crisis))  
+  
+- **Urban–urban displacement:** Movement from major cities (Khartoum, Omdurman) to relatively safer urban centers (Port Sudan, Wad Madani) before secondary migration abroad.  
+- **Gulf migration & labor relocation:** Long-standing Sudanese economic migration into Saudi Arabia, UAE, and Qatar — with new humanitarian dimensions after 2023. ([CMI — Saudi Arabia and Sudanese refugees](https://www.cmi.no/publications/8834-saudi-arabia-and-sudanese-refugees))
+
+Migration decisions today reflect a mix of crisis-driven displacement and pre-existing diaspora structures — shaping who relocates, where they relocate, and how they integrate.
+
+### Why a Data-Driven Relocation Recommender is Needed
+
+Sudanese individuals and families face complex decisions regarding relocation: weighing **safety, economic opportunity, family needs, visa access, community connection, and cost of living**, often under extreme pressure and uncertainty.  
+These decisions are typically based on informal information — personal networks, social media, or anecdotal advice — rather than systematic, transparent, data-driven analysis.
+
+A recommendation system powered by survey data and external indicators can help by:
+
+- Mapping user preferences to country profiles  
+- Prioritizing key dimensions (safety, legal access, socioeconomic viability, community presence)  
+- Producing ranked relocation suggestions with interpretability and explanation  
+- Providing a consistent, replicable decision support tool for vulnerable populations  
+
+This project aims to combine **individual constraints** (family size, budget, visa status), **personal priorities** (safety, employment, education, community), and **country-level data** (security, cost of living, diaspora presence, immigration feasibility) to generate **personalized relocation recommendations** for Sudanese users.
+
+---
+
+### 🔗 Key Sources & Data References
+
+| Source| Focus |
+|-------|------|
+| [Council on Foreign Relations — Conflict Tracker](https://www.cfr.org/global-conflict-tracker/conflict/power-struggle-sudan) | Overview of SAF–RSF power struggle and current conflict drivers |
+| [UNHCR — Sudan Situation Dashboard](https://data.unhcr.org/en/situations/sudansituation)| Live displacement data, refugee flows, host countries |
+| [UNHCR — Sudan Country Profile](https://data.unhcr.org/en/country/sdn) | Historical refugee context and internal displacement |
+| [CMI — Sudanese Refugees in Saudi Arabia](https://www.cmi.no/publications/8834-saudi-arabia-and-sudanese-refugees) | Gulf migration, integration, identity and policy study |
+| [ABC News — Humanitarian Nightmare Article](https://abcnews.go.com/International/sudan-now-worst-humanitarian-nightmares-recent-history/story?id=104173197) | Qualitative severity of humanitarian crisis |
+| [IOM DTM — Visual Displacement Dashboard](https://dtm.iom.int/online-interactive-resources/one-year-conflict-sudan-visualizing-worlds-largest-displacement-crisis) | Internal displacement, border movements, data visualization |
+| [Human Rights Watch — Darfur Report](https://www.hrw.org/reports/2007/sudan0907/sudan0907webtext.pdf) | Evidence of pre-2023 mass displacement |
 
 ### Humanitarian Context & Sudan War
 
