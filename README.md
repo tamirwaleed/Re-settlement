@@ -16,7 +16,6 @@
     - [Displacement Patterns \& Host Countries](#displacement-patterns--host-countries)
     - [Why a Data-Driven Relocation Recommender is Needed](#why-a-data-driven-relocation-recommender-is-needed)
     - [🔗 Key Sources \& Data References](#-key-sources--data-references)
-    - [Humanitarian Context \& Sudan War](#humanitarian-context--sudan-war)
     - [Why Relocation Recommendation Matters](#why-relocation-recommendation-matters)
   - [Objectives \& Research Questions](#objectives--research-questions)
   - [Data Collection \& Survey Design](#data-collection--survey-design)
@@ -93,13 +92,7 @@ This project aims to combine **individual constraints** (family size, budget, vi
 | [ABC News — Humanitarian Nightmare Article](https://abcnews.go.com/International/sudan-now-worst-humanitarian-nightmares-recent-history/story?id=104173197) | Qualitative severity of humanitarian crisis |
 | [IOM DTM — Visual Displacement Dashboard](https://dtm.iom.int/online-interactive-resources/one-year-conflict-sudan-visualizing-worlds-largest-displacement-crisis) | Internal displacement, border movements, data visualization |
 | [Human Rights Watch — Darfur Report](https://www.hrw.org/reports/2007/sudan0907/sudan0907webtext.pdf) | Evidence of pre-2023 mass displacement |
-
-### Humanitarian Context & Sudan War
-
-Sudan — like many conflict-affected countries — has been subjected to prolonged political instability, armed conflict, and humanitarian crises. These events have caused mass displacement internally and internationally, disrupting livelihoods, safety, and access to basic services. *[Here you will insert a brief literature review summarizing key facts about the conflict, refugee flows, economic collapse, and international migration patterns relevant to Sudan]*.  
-
-Relocating — whether internally or abroad — is often one of the few ways for individuals and families to seek safety, stability, and opportunities. However, relocation decisions are complex, involving trade-offs between safety, socioeconomic opportunities, community support, costs, and personal preferences.  
-
+  
 ### Why Relocation Recommendation Matters
 
 - Many potential migrants have limited information about which destinations might offer the best balance of **safety**, **employment prospects**, **community support**, **cost of living**, and **social integration**.  
