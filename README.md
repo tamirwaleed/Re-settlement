@@ -24,7 +24,6 @@
     - [Hypothesis (Working Assumption)](#hypothesis-working-assumption)
     - [Expected Outcomes](#expected-outcomes)
   - [Data Collection \& Survey Design](#data-collection--survey-design)
-  - [Data Collection and Survey Design](#data-collection-and-survey-design)
     - [Survey Categories and Feature Rationale](#survey-categories-and-feature-rationale)
     - [Data Handling and Processing Approach](#data-handling-and-processing-approach)
     - [Data Structure in the Repository](#data-structure-in-the-repository)
@@ -198,11 +197,11 @@ We hypothesize that a **hybrid model**: using both rule-based filtering and mach
 
 ## Data Collection & Survey Design
 
-## Data Collection and Survey Design
-
 This project uses a structured survey to collect individual level information from Sudanese respondents inside and outside Sudan. The survey gathers demographic, educational, financial, logistical, and preference based data to support relocation decision modeling. All data is collected anonymously through a Google Forms questionnaire.
 
 Survey questions were designed to capture both personal constraints and target destination preferences. The responses are later combined with country level indicators to generate relocation recommendations.
+
+[Survey Link](https://docs.google.com/forms/d/e/1FAIpQLSeF3Phs0O8zLkwsa_EhsJiBIYFSjKUHANzWTFvYV1NGBwGmQg/viewform)
 
 Below is a high level breakdown of the survey categories and their intended modeling purpose.
 
