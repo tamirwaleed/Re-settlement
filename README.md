@@ -450,7 +450,7 @@ In short:
 
 ## Live Demo
 
-[You can try the interactive recommender here (experimental)](https://your-streamlit-app-url.streamlit.app)
+[You can try the interactive recommender here (experimental)](https://sudanese-relocation-recommender-qkkdzyhcr9ycyu6qgappptc.streamlit.app/)
 
 ---
 
