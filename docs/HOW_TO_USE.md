@@ -103,11 +103,24 @@ python -m streamlit run app.py
 
 ### 2. What you can do
 
-- Select a survey respondent by index
-- Adjust Top-K recommendations
-- Control blending factor α (0.0 = pure ML, 1.0 = pure heuristic)
-- View either raw survey responses or engineered features
-- Display recommendation table with explanations
+In the app, you can:
+
+- Enter your age group
+- Specify your estimated monthly budget (USD)
+- Indicate whether you can work remotely / freelance or mainly do local/physical work
+- Select one or more preferred regions (e.g., Gulf, East Africa, North Africa, Europe, Canada, USA, Asia, or Anywhere)
+- Indicate whether you are actively seeking to relocate
+- Indicate whether you can communicate in English
+- Choose a cultural preference (Arabic-speaking, African, Western, or no strong preference)
+
+After filling in the form, click “Generate recommendations” to:
+
+- See a JSON view of the encoded features used by the model (for transparency)
+- View a table of top recommended countries with:
+- Final blended score
+- Neural network score
+- Heuristic baseline score
+- A short explanation for each country
 
 When launched, Streamlit will automatically open at:
 
