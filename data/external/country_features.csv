@@ -1,0 +1,16 @@
+country_code,country_name,region_group,safety_index,cost_of_living_index,min_budget_required,visa_policy_sudanese_score,cultural_compatibility_score,diaspora_presence_score
+UAE,United Arab Emirates,gulf,0.82,70,1500,0.4,0.9,0.7
+KSA,Saudi Arabia,gulf,0.78,55,1200,0.5,0.95,0.8
+QAT,Qatar,gulf,0.88,85,1800,0.4,0.9,0.6
+EGY,Egypt,north_africa,0.45,30,500,0.8,0.95,0.9
+SDN,Sudan,africa,0.10,15,200,0.1,1.0,1.0
+KEN,Kenya,east_africa,0.50,45,800,0.5,0.6,0.4
+ETH,Ethiopia,east_africa,0.30,25,400,0.3,0.6,0.5
+UGA,Uganda,east_africa,0.48,25,350,0.7,0.7,0.6
+TUR,Turkey,eu_asia,0.55,40,900,0.4,0.8,0.6
+UK,United Kingdom,europe,0.90,120,2500,0.2,0.4,0.7
+IRL,Ireland,europe,0.92,110,2200,0.2,0.4,0.4
+CAN,Canada,north_america,0.93,115,2500,0.4,0.5,0.6
+USA,United States,north_america,0.85,130,2800,0.2,0.5,0.5
+MYS,Malaysia,asia,0.70,45,850,0.6,0.8,0.3
+CHN,China,asia,0.65,50,900,0.3,0.4,0.2

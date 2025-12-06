@@ -1,0 +1,87 @@
+# ---------------------
+# Python
+# ---------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.log
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# ---------------------
+# Jupyter Notebook
+# ---------------------
+.ipynb_checkpoints/
+jupyter_notebook_config.py
+
+# ---------------------
+# VS Code / Editor
+# ---------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---------------------
+# OS / System Files
+# ---------------------
+.DS_Store
+Thumbs.db
+
+# ---------------------
+# Data Files
+# ---------------------
+# Raw survey data (keep untracked for privacy)
+notebooks/raw/
+data/raw/
+# Any file containing personally identifiable information
+*.xlsx
+*.xls
+*.csv
+
+# Keep public-safe feature CSV:
+!data/external/country_features.csv
+!notebooks/intermediate/cleaned_responses.csv
+!notebooks/processed/final_model_dataset.csv
+!notebooks/processed/final_model_dataset_with_clusters.csv
+
+# ---------------------
+# Model Artifacts
+# ---------------------
+
+*.joblib
+
+# ---------------------
+# Streamlit
+# ---------------------
+.streamlit/
+
+# ---------------------
+# Cache / Misc
+# ---------------------
+*.cache
+*.tmp
+*.bak
+*.old
+
+# ---------------------
+# Deployment / Packaging
+# ---------------------
+dist/
+build/
+*.tar.gz
+*.whl
+
+# ---------------------
+# Environment Variables
+# ---------------------
+.env
+.env.*
